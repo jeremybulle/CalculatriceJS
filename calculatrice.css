@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Calculator;
+    src: url('/fonts/Calculator.ttf');
+}
+
+#container-main{
+    width: fit-content;
+    height: fit-content;
+    background-color: darkgray;
+    padding: 0.25em;
+    text-align: center;
+    font-size: 80px;
+    
+    
+}
+
+#container-screen{
+    border: 10px hotpink;
+    background-color: lightgray;
+    border-radius: 1em;
+    margin-bottom: 0.25em;
+    
+
+}
+
+#screen{
+    border: 10px hotpink;
+    padding-right: 1em;
+    text-align: right;
+    font-family: Calculator, serif;
+    font-size: 1em;
+    font-weight: bolder;
+    
+}
+
+#container-button{
+    width: fit-content;
+    height: fit-content;
+
+}
+
+table{
+    width: fit-content;
+    height: fit-content;
+} 
+
+td{
+    padding-right: 0.2em;
+    padding-left: 0.2em;
+}
+
+button{
+    font-size: 0.75em;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5em;
+    box-shadow: 0.1em 0.05em 0.05em black;
+    border-color: blue;
+}
+
